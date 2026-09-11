@@ -9,10 +9,10 @@ void draw() {
   for(int j=500;j>=0;j-=80){
     for(int i=0;i<=500;i+=70){
       if(hold==false){
-        scale(j-100,i-50);
+        scale(j,i-50);
       }
       else{
-        scale(j-100,i-80);
+        scale(j,i-80);
       }
     }
     System.out.print(hold);
